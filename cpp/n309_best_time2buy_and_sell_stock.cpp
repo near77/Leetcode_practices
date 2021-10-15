@@ -86,7 +86,7 @@ public:
 int main(void){
     vector<int> nums = {1,2,3,0,2};
     Solution s = Solution();
-    cout << s.maxProfit(nums) << endl;
+    cout << s.maxProfit_dp_opt(nums) << endl;
     return 0;
 }
 
