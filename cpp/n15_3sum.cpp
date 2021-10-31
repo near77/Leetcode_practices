@@ -1,6 +1,7 @@
 #include <vector>
+#include <algorithm>
 using std::vector;
-
+using std::sort;
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
