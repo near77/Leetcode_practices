@@ -1,7 +1,8 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-//Power of Two
+//n231 Power of Two
+//1108 / 1108 Testcases Passed
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -21,7 +22,8 @@ public:
         }
     }
 };
-//Find All Numbers Disappeared in an Array
+//n448 Find All Numbers Disappeared in an Array
+//33 / 33 Testcases Passed
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
