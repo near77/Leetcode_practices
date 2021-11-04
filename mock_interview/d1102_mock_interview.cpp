@@ -1,3 +1,6 @@
+// Your interview score of 2.27/10 beats 50% of all users.
+// Time Spent: 1 hour
+// Time Allotted: 1 hour
 #include <vector>
 #include <queue>
 #include <algorithm>
@@ -81,7 +84,3 @@ public:
         return max_width;
     }
 };
-
-// Your interview score of 2.27/10 beats 50% of all users.
-// Time Spent: 1 hour
-// Time Allotted: 1 hour

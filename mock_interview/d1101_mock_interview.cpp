@@ -1,3 +1,6 @@
+// Your interview score of 6.88/10 beats 74% of all users.
+// Time Spent: 16 minutes
+// Time Allotted: 1 hour
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -43,7 +46,3 @@ public:
         return ans;
     }
 };
-
-// Your interview score of 6.88/10 beats 74% of all users.
-// Time Spent: 16 minutes
-// Time Allotted: 1 hour
