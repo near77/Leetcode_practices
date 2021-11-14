@@ -4,7 +4,6 @@
 
 from typing import *
 # n551 Student Attendance Record I
-# EASY
 # 113 / 113 Testcases Passed
 class Solution:
     def checkRecord(self, s: str) -> bool:
@@ -23,7 +22,6 @@ class Solution:
         return True
 
 # n743 Network Delay Time
-# MEDIUM
 # 52 / 52 Testcases Passed
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
