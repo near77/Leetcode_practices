@@ -2,7 +2,7 @@
 # Time Spent: 38 minutes 16 seconds
 # Time Allotted: 1 hour
 from typing import List
-# Remove Element
+# n27 Remove Element
 # 113 / 113 Testcases Passed
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
@@ -16,7 +16,7 @@ class Solution:
             else:
                 i += 1
         return j
-# Combination Sum
+# n39 Combination Sum
 # 170 / 170 Testcases Passed
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
