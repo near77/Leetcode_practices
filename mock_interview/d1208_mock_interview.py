@@ -2,7 +2,7 @@
 # Time Spent: 16 minutes 31 seconds
 # Time Allotted: 1 hour
 from typing import List
-# Best Time to Buy and Sell Stock
+# n121 Best Time to Buy and Sell Stock
 # 211 / 211 Testcases Passed
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -15,7 +15,7 @@ class Solution:
                 min_cost = price
         return res
 
-# Product of Array Except Self
+# n238 Product of Array Except Self
 # 20 / 20 Testcases Passed
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
