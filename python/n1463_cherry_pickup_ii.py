@@ -1,5 +1,27 @@
 from typing import List
 
+class Solution:
+    def cherryPickup(self, grid: List[List[int]]) -> int:
+        n = len(grid)
+        m = len(grid[0])
+        dp = [[[0]*(m+2) for j in range(m+2)] for i in range(n+1)]
+        for i in range(n-1, -1, -1):
+            for j in range(m):
+                for k in range(m):
+                    reward = grid[i][j] + grid[i][k]
+                    if j == k:
+                        reward /= 2
+                    dp[i][j+1][k+1] = reward + self.get_max_val(dp, i+1, j+1, k+1)
+        return dp[0][1][m]
+    
+    def get_max_val(self, dp, row, col_1, col_2):
+        res = 0
+        for i in (col_1-1, col_1, col_1+1):
+            for j in (col_2-1, col_2, col_2+1):
+                res = max(res, dp[row][i][j])   
+        return res
+        
+
 # TLE
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:
